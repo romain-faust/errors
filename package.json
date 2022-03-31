@@ -29,5 +29,5 @@
 		"typecheck": "yarn build --noEmit"
 	},
 	"types": "build/index.d.ts",
-	"version": "1.0.4"
+	"version": "1.0.5"
 }
