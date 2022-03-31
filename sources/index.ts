@@ -1,4 +1,5 @@
 export { ConflictError } from './conflict'
+export { InvalidEmailError } from './invalid-email'
 export { NetworkError } from './network'
 export { NotFoundError } from './not-found'
 export { PermissionDeniedError } from './permission-denied'
