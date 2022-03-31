@@ -4,6 +4,7 @@ export class UnknownError extends Error {
 	constructor(originalError: Error, message?: string) {
 		super(message)
 
+		this.name = 'UnknownError'
 		this.originalError = originalError
 	}
 }
