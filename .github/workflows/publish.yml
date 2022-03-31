@@ -21,6 +21,8 @@ jobs:
               run: yarn install --frozen-lockfile
             - name: Typecheck
               run: yarn typecheck
+            - name: Build
+              run: yarn build
             - name: Publish to NPM registry
               run: yarn publish --access public
               env:
